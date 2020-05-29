@@ -16,7 +16,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    //invoke-customs-are-only-supported-starting-with-android-0-min-api-26 "custom kalo yang ini" kalo ada trouble invoke version <API 26
+    //invoke-customs-are-only-supported-starting-with-android-0-min-api-26 "custom kalo yang ini" kalo ada trouble invoke version < API 26
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
